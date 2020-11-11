@@ -1,0 +1,26 @@
+<annotation>
+	<folder>20201111_232118</folder>
+	<filename>03b7e089-95f1-47a9-a360-d7951c0af53f.jpg</filename>
+	<path>examples/result/20201111_232118/03b7e089-95f1-47a9-a360-d7951c0af53f.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>768</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>danaus_plexippus</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>146</xmin>
+			<ymin>337</ymin>
+			<xmax>248</xmax>
+			<ymax>408</ymax>
+		</bndbox>
+	</object>
+</annotation>

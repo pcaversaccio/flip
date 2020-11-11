@@ -1,6 +1,6 @@
-examples/data/
-examples/raw_data/
-examples/result/
+# examples/data/
+# examples/raw_data/
+# examples/result/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
