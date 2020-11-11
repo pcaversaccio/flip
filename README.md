@@ -20,6 +20,9 @@ Flip requires:
 - Python (>= 3.7)
 - Opencv (>= 4.3.0)
 - Numpy (>= 1.19.1)
+**Note Pascal:** I recommend using `pip install opencv-python` in order to install OpenCV. If you use Python `>=3.9.0`, install `pip install numpy==1.19.3`. Also, run sequentially:
+- `pip install wheel`
+- `pip install matplotlib`
 
 ## Quick Start ([Example](https://github.com/linkedai/flip/blob/master/examples/README.md))
 

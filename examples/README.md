@@ -26,8 +26,8 @@ other for the backgrounds that have some [forest textures](http://textures.forre
 
 The first step to make this example work is gather the objects as segmented images.
 
-1. Download [butterflies](http://www.josiahwang.com/dataset/leedsbutterfly/examples/001.jpg)
-and unzip in a folder call `raw_data/` inside `examples/`.
+1. Download [butterflies](http://www.josiahwang.com/dataset/leedsbutterfly/)
+and unzip an example picture (incl. the mask) in a folder called `raw_data/images` and `raw_data/segmentation` inside `examples/`.
 2. Run all the blocks of the `crop_image_from_mask.ipynb` notebook.
 3. Check all images were created and are in the folder `examples/data/objects/` divide in 10 categories.
 4. Download [some textures](http://textures.forrest.cz/) and place them in `examples/data/backgrounds/`.
@@ -79,7 +79,7 @@ el = tr.Element(image=..., objects=...)
 To try the `data_generator.py` run:
 
 ```batch
-python3 examples/data_generator.py
+python examples/data_generator.py
 ```
 
 ![Object](https://github.com/linkedai/flip/blob/master/docs/images/generated.jpg)
